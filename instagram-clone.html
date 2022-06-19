@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/afff6fffec.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>instagram clone by HSS</title>
+  </head>
+  <body>
+    <!-- NAV BAR START -->
+    <div
+      class="container-fluid mt-0 pt-2 pb-1 bg-white sticky-top"
+      style="border-bottom: 1px solid rgb(226, 226, 226)"
+    >
+      <!--Navbar'ın çerçevesi, margin'i padding'i-->
+      <div
+        class="row fixed-center justify-content-center"
+        style="text-align: center"
+      >
+        <!--fixed center, row'u yani satırı yukarı ortaya sabitliyor-->
+        <div class="col-sm-6 ms-5">
+          <!--Bu sm-5 instagram logosu ile input kısmını içine alan 5'lik alan-->
+          <div class="row">
+            <div class="col-xs-12 col-sm-3 my-1 mx-4">
+              <a class="navbar-brand" href="#"
+                ><img
+                  src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+              /></a>
+            </div>
+            <!--instagram logomuzu ekledik ve margin'lerini ayarladık-->
+            <div class="d-none d-sm-block col-xs-12 col-sm-6 my-2 ms-4">
+              <!--SEARCH-->
+              <form class="form-inline my-2 my-sm-0 ml-5">
+                <input
+                  class="form-control mr-sm-2 empty"
+                  type="search"
+                  placeholder="Search"
+                  style="
+                    font-family: Arial, FontAwesome;
+                    height: 28px;
+                    width: 216px;
+                    text-align: center;
+                  "
+                  aria-label="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 offset-sm-2">
+          <!--ICONS START-->
+          <div class="row justify-content-center my-2">
+            <div class="col-sm-1">
+              <i
+                class="fas fa-home fa-lg mr-2 d-xs-block mt-1"
+                style="color: black"
+                title="Ana Sayfa"
+              ></i>
+            </div>
+            <div class="col-sm-1">
+              <i
+                class="fab fa-facebook-messenger fa-lg mr-2 mt-1"
+                style="color: black"
+                title="Sohbet"
+              ></i>
+            </div>
+            <div class="col-sm-1">
+              <i
+                class="far fa-compass fa-lg mr-2 mt-1"
+                style="color: black"
+                title="Keşfet"
+              ></i>
+            </div>
+            <div class="col-sm-1">
+              <i
+                class="far fa-heart fa-lg mr-2 mt-1"
+                style="color: black"
+                title="Beğenilerin!"
+              ></i>
+            </div>
+            <div class="col-sm-1">
+              <i class="fa-regular fa-user mr-2 mt-1"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- NAV BAR END -->
+    <!-- Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="card-body">
+            <a
+              href="https://www.instagram.com/kodluyoruz"
+              style="text-decoration: none"
+              ><img
+                src="images/kodluyoruz.jpeg"
+                class="storyphoto img-fluid"
+                alt=""
+              /><span class="storytext">kodluyoruz</span></a
+            >
+            <a href="#" style="text-decoration: none"
+              ><img
+                src="images/elonmsk.jpeg"
+                class="storyphoto img-fluid"
+                alt=""
+              /><span class="storytext">Elonmusk</span></a
+            >
+            <a href="#" style="text-decoration: none"
+              ><img
+                src="images/jebezos.jpeg"
+                class="storyphoto img-fluid"
+                alt=""
+              /><span class="storytext">Jef</span></a
+            >
+            <a href="#" style="text-decoration: none"
+              ><img
+                src="images/nikolatesla.jpeg"
+                class="storyphoto img-fluid"
+                alt=""
+              /><span class="storytext">Nikola Tesla</span></a
+            >
+            <a href="#" style="text-decoration: none"
+              ><img
+                src="images/graham.jpeg"
+                class="storyphoto img-fluid"
+                alt=""
+              /><span class="storytext">Graham Bell</span></a
+            >
+            <a href="#" style="text-decoration: none"
+              ><img
+                src="images/newton.jpeg"
+                class="storyphoto img-fluid"
+                alt=""
+              /><span class="storytext">Newton</span></a
+            >
+            <a href="#" style="text-decoration: none"
+              ><img
+                src="images/bill.jpeg"
+                class="storyphoto img-fluid"
+                alt=""
+              /><span class="storytext">Bill Gates</span></a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <img
+              src="images/bill.jpeg"
+              alt=""
+              class="mr-2"
+              style="width: 35px; height: 35px; border-radius: 50%"
+            />
+            <span class="postuserfont"
+              ><strong
+                ><a href="#" target="_blank" style="color: black"
+                  >Bill Gates</a
+                ></strong
+              ></span
+            >
+            <span class="mt-2"
+              ><strong><i class="fas fa-ellipsis-h"></i></strong
+            ></span>
+          </div>
+          <img
+            src="https://picsum.photos/id/900/600/400"
+            class="card-img-top"
+            alt="..."
+          />
+          <ul
+            class="list-group list-group-horizontal mt-1"
+            style="list-style-type: none"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i
+                  class="far fa-heart fa-lg"
+                  style="color: black; position: relative; font-size: 23px"
+                >
+                </i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i
+                  class="far fa-comment fa-lg"
+                  style="
+                    color: black;
+                    position: relative;
+                    font-size: 23px;
+                    margin-left: -11px;
+                  "
+                ></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i
+                  class="far fa-paper-plane fa-lg"
+                  style="
+                    color: black;
+                    position: relative;
+                    font-size: 23px;
+                    margin-left: -11px;
+                  "
+                ></i
+              ></a>
+            </li>
+            <span class="">
+              <li class="nav-item ml-4">
+                <a class="nav-link ml-2" href="#"
+                  ><i
+                    class="far fa-bookmark fa-lg"
+                    style="color: black; position: relative; font-size: 23px"
+                  ></i
+                ></a>
+              </li>
+            </span>
+          </ul>
+          <span>
+            <img
+              src="images/graham.jpeg"
+              class="mb-1 ml-3"
+              style="width: 23px; height: 23px; border-radius: 50%"
+            />
+            <span class="postuserfont"
+              ><strong>Graham Bell</strong> and
+              <strong>42 another person</strong> liked</span
+            >
+          </span>
+          <div class="card-body" style="margin-top: -15px">
+            <p class="card-text postuserfont">
+              <strong style="margin-left: -4px; margin-right: 5px"
+                >Bill Gates</strong
+              >Happy Weekend!
+            </p>
+            <a href="#" style="text-decoration: none"
+              ><p
+                class="card-text postuserfont"
+                style="
+                  margin-left: -4px;
+                  margin-top: -14px;
+                  color: rgb(139, 133, 133);
+                "
+              >
+                15 comment
+              </p></a
+            >
+            <p class="card-text postuserfont">
+              <strong style="margin-left: -4px; margin-right: 5px"
+                >crazy_77</strong
+              >Burasi neresi bill abi
+            </p>
+            <p class="card-text postuserfont" style="margin-top: -15px">
+              <strong style="margin-left: -4px; margin-right: 5px"
+                >elonmuskk</strong
+              >That's wonderful view bro! I always want to travel with you...
+            </p>
+            <p
+              class="card-text"
+              style="
+                margin-top: -10px;
+                margin-left: -4px;
+                font-size: 12px;
+                color: rgb(139, 133, 133);
+              "
+            >
+              1 DAY AGO
+            </p>
+          </div>
+          <div
+            class="card-footer"
+            style="
+              color: rgb(139, 133, 133);
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+                sans-serif;
+              font-size: 14px;
+            "
+          >
+            <span style="margin-left: -4px">Comment...</span
+            ><span class="" style="color: #0095f6; opacity: 50%"
+              ><strong>Share</strong></span
+            >
+          </div>
+        </div>
+        <div class="card mt-5 mb-3">
+          <div class="card-header">
+            <img
+              src="images/graham.jpeg"
+              alt=""
+              class="mr-2"
+              style="width: 35px; height: 35px; border-radius: 50%"
+            />
+            <span class="postuserfont"
+              ><strong
+                ><a href="#" target="_blank" style="color: black"
+                  >Graham Bell</a
+                ></strong
+              ></span
+            >
+            <span class="mt-2"
+              ><strong><i class="fas fa-ellipsis-h"></i></strong
+            ></span>
+          </div>
+          <img
+            src="https://picsum.photos/id/990/600/400"
+            class="card-img-top"
+            alt="..."
+          />
+          <ul
+            class="list-group list-group-horizontal mt-1"
+            style="list-style-type: none"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i
+                  class="far fa-heart fa-lg"
+                  style="color: black; position: relative; font-size: 23px"
+                >
+                </i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i
+                  class="far fa-comment fa-lg"
+                  style="
+                    color: black;
+                    position: relative;
+                    font-size: 23px;
+                    margin-left: -11px;
+                  "
+                ></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i
+                  class="far fa-paper-plane fa-lg"
+                  style="
+                    color: black;
+                    position: relative;
+                    font-size: 23px;
+                    margin-left: -11px;
+                  "
+                ></i
+              ></a>
+            </li>
+            <span class="">
+              <li class="nav-item ml-4">
+                <a class="nav-link ml-2" href="#"
+                  ><i
+                    class="far fa-bookmark fa-lg"
+                    style="color: black; position: relative; font-size: 23px"
+                  ></i
+                ></a>
+              </li>
+            </span>
+          </ul>
+          <span>
+            <img
+              src="images/elonmsk.jpeg"
+              class="mb-1 ml-3"
+              style="width: 23px; height: 23px; border-radius: 50%"
+            />
+            <span class="postuserfont"
+              ><strong>Elon musk</strong> and
+              <strong>95.000 another person</strong> is liked</span
+            >
+          </span>
+          <div class="card-body" style="margin-top: -15px">
+            <p class="card-text postuserfont">
+              <strong style="margin-left: -4px; margin-right: 5px"
+                >Graham Bell</strong
+              >Alo!
+            </p>
+            <a href="#" style="text-decoration: none"
+              ><p
+                class="card-text postuserfont"
+                style="
+                  margin-left: -4px;
+                  margin-top: -14px;
+                  color: rgb(139, 133, 133);
+                "
+              >
+                900 comment
+              </p></a
+            >
+            <p class="card-text postuserfont">
+              <strong style="margin-left: -4px; margin-right: 5px"
+                >marcopolo</strong
+              >Amazing view !
+            </p>
+            <p class="card-text postuserfont" style="margin-top: -15px">
+              <strong style="margin-left: -4px; margin-right: 5px"
+                >elonmuskk</strong
+              >Buy doge coin...
+            </p>
+            <p
+              class="card-text"
+              style="
+                margin-top: -10px;
+                margin-left: -4px;
+                font-size: 12px;
+                color: rgb(139, 133, 133);
+              "
+            >
+              1 DAY AGO
+            </p>
+          </div>
+          <div
+            class="card-footer"
+            style="
+              color: rgb(139, 133, 133);
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+                sans-serif;
+              font-size: 14px;
+            "
+          >
+            <span style="margin-left: -4px">Comment...</span
+            ><span class="" style="color: #0095f6; opacity: 50%"
+              ><strong>Share</strong></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Content END -->
+    <div class="col-3">
+      <div
+        class="card col-xs-12 rightpanel"
+        id="sticky-sidebar"
+        style="width: 18rem"
+      >
+        <div class="card-body d-flex " >
+          <div>
+            <a class="nav-link" href="#"
+              >
+              <span>
+              <img
+                src="images/kodluyoruz.jpeg"
+                class=""
+                style="
+                  width: 60px;
+                  height: 60px;
+                  border-radius: 50%;
+                  border: 2px solid rgb(238, 39, 82);
+                  margin-left: -15px;
+                "
+              />
+              <span
+                    class=""
+                    style="
+                      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+                        'Helvetica Neue', sans-serif;
+                      font-size: 15px;
+                      color: black;
+                      margin-left: 20px;
+                    "
+                    ><strong>Kodluyoruz</strong>
+                    </span>
+                  </span>
+                </a>
+                <div class="mt-2">
+                  <span
+                    class="mt-5"
+                    style="
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+                        sans-serif;
+                      font-size: 15px;
+                      color: gray;
+                    "
+                    >For you</span
+                  >
+                  <span
+                    class="postuserfont mt-1"
+                    style="font-size: 12px"
+                    ><strong>See all</strong></span
+                  >
+                </div>
+                <div class="mt-2 ml-2">
+                  <div>
+                    <span
+                      ><img
+                        src="images/nikolatesla.jpeg"
+                        style="width: 30px; height: 30px; border-radius: 50%"
+                      />
+                    </span>
+                    <a href="#">
+                      <span class="postuserfont ml-2 mt-1"
+                        ><strong>Nikola Tesla</strong></span
+                      >
+                      <span
+                        class="postuserfont"
+                        style="font-size: 13px; color: #0095f6; margin-top: 5px"
+                        ><strong>Follow</strong></span
+                      >
+                      </a>
+                    </div>
+                    <div class="mt-3">
+                      <span
+                        ><img
+                          src="images/jebezos.jpeg"
+                          style="width: 30px; height: 30px; border-radius: 50%"
+                        />
+                      </span>
+                      <a href="#"> 
+                      <span class="postuserfont ml-2 mt-1"
+                        ><strong>Jeff Bezos </strong></span
+                      >
+                      <span
+                        class="postuserfont"
+                        style="font-size: 13px; color: #0095f6; margin-top: 5px"
+                        ><strong>Follow</strong></span
+                      >
+                      </a>
+                    </div>
+                    <div class="mt-3">
+                    <span
+                      ><img
+                        src="images/newton.jpeg"
+                        style="width: 30px; height: 30px; border-radius: 50%"
+                      />
+                    </span>
+                    <a href="#">
+                    <span class="postuserfont ml-2 mt-1"
+                      ><strong>Newton</strong></span
+                    >
+                    <span
+                      class="postuserfont"
+                      style="font-size: 13px; color: #0095f6; margin-top: 5px"
+                      ><strong>Follow</strong></span
+                    >
+                    </a>
+                  </div>
+                  <div class="mt-3">
+                    <span
+                      ><img
+                        src="images/microsoft.jpeg"
+                        style="width: 30px; height: 30px; border-radius: 50%"
+                      />
+                    </span>
+                    <a href="#">
+                    <span class="postuserfont ml-2 mt-1"
+                      ><strong>microsoft</strong></span
+                    >
+                    <span
+                      class="postuserfont"
+                      style="font-size: 13px; color: #0095f6; margin-top: 5px"
+                      ><strong>Follow</strong></span
+                    >
+                    </a>
+                  </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
